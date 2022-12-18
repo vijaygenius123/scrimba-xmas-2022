@@ -1,0 +1,16 @@
+{
+  "name": "scrimba-xmas-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha  \"src/**/*.test.js\""
+  },
+  "keywords": [],
+  "author": "Vijayaraghavan Sundararaman <vijaygenius123@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "4.3.7",
+    "mocha": "10.2.0"
+  }
+}
