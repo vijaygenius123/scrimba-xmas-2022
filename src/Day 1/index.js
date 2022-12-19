@@ -13,4 +13,8 @@ Example output: "I'M 😱 ALMOST 😱 OUT 😱 OF 😱 COFFEE!"
 */
 
 
+function panic(input) {
+    return input.split(' ').map(w => w.toUpperCase()).join(' 😱 ') + '!'
+}
 
+module.exports = {panic}
