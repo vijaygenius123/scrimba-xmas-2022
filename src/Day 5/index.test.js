@@ -13,8 +13,12 @@ describe('Candy', function () {
     });
 
     it('should only sweets with item and price', function () {
-        assert.deepEqual(getSaleItems(data),
+        assert.sameDeepMembers(getSaleItems(data),
             [
+                {
+                    item: "🍖",
+                    price: 3.99
+                },
                 {
                     item: "🍭",
                     price: 2.99,

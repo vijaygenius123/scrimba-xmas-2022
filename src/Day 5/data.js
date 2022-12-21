@@ -29,4 +29,9 @@ module.exports = [
         price: 3.99,
         type: "savory",
     },
+    {
+        item: "🍖",
+        price: 3.99,
+        type: "sweet",
+    },
 ]
