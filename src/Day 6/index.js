@@ -13,7 +13,6 @@ function getRandomNumberOfTacos() {
     */
 
     return new Array(Math.floor(Math.random() * 10)).fill('🌮') // // replace this empty tray array
-
 }
 
 function putTacosOnTray() {
